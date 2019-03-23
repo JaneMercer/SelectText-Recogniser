@@ -3,7 +3,7 @@ import numpy as np
 import pytesseract
 
 
-def do_recognition(image, language):
+def get_text(image, language):
     #changes img
     kernel = np.ones((1, 1), np.uint8)
     img = cv2.dilate(image, kernel, iterations=1)
@@ -16,9 +16,6 @@ def do_recognition(image, language):
     print(result)
     return result
 
-
-def get_text(img, lang):
-    return do_recognition(img, lang)
 
 
 
