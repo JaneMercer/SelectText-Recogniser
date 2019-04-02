@@ -9,4 +9,4 @@ In this project core components are OpenCV and Tesseract.
 ```diff
 - !!!Tesseract has to be installed on your computer to run this code!!!
 ```
-I'll probably add comments soon, but now it's just a raw working project.
+I'll probably add comments soon, but now it's just a raw working code.
